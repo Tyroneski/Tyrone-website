@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+body {
+    background-color: dimgray;
+    
+}
+.all {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.inside {
+    display: inline-flex;
+    margin: 20px;
+    list-style: none;
+}
+.inside li a {
+    font-size: 10px;
+    margin: 5px;
+    text-decoration: none;
+    color: white;
+}
+.logo {
+    color: blue;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.logo span {
+    color: red;
+}
+#p1 {
+    color: black;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 60px;
+}
+#p2 {
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+.img {
+    background-size: cover;
+    background-position: center;
+    width: 400px;
+    height: 400px;
+    margin-top: 20px;
+}
